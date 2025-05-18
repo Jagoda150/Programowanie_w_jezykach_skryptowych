@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(135deg, #6bbf59 0%, #9be27f 33%, #c2f09f 66%, #f0f4a2 100%);
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: 400% 400%;
+    animation: backgroundShift 20s ease infinite;
+}
+
+@keyframes backgroundShift {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.quizContainer {
+    max-width: 440px;
+    margin: 50px auto;
+    background: #3a3a3a;
+    border: 5px solid #4e7520;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    padding: 30px 25px;
+    color: #dcdcdc;
+}
+
+h1 {
+    text-align: center;
+    color: #a8e600;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.pytanieTekst {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.poleOdpowiedzi {
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 90%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #7a9e50;
+    border-radius: 6px;
+    background-color: #f0ffe0;
+    color: #333;
+    box-sizing: border-box;
+}
+
+
+.przyciskNastepne {
+    background: #4e7520;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.przyciskNastepne:hover {
+    background: #6ea42f;
+}
+
+.komunikatZwrotny {
+    margin-top: 12px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.wynikContainer {
+    text-align: center;
+    color: #fff;
+}
+
+.wynikTekst {
+    font-size: 1.4em;
+    color: #b7ff3c;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px #000;
+}
