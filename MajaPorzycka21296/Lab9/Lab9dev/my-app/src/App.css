@@ -1,0 +1,70 @@
+/* Reset i podstawowy wygląd */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+/* Kontener aplikacji */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Nagłówki */
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #555;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Sekcje z komponentami */
+.component-box {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Przycisk */
+button {
+  padding: 10px 20px;
+  background-color: #4e9af1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #337acc;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}

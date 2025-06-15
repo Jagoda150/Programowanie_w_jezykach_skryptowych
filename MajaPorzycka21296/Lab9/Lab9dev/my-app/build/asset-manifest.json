@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Lab9/Lab9prod/static/css/main.aed877f6.css",
+    "main.js": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Lab9/Lab9prod/static/js/main.088a0e8c.js",
+    "static/js/453.ed3810f9.chunk.js": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Lab9/Lab9prod/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Lab9/Lab9prod/index.html",
+    "main.aed877f6.css.map": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Lab9/Lab9prod/static/css/main.aed877f6.css.map",
+    "main.088a0e8c.js.map": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Lab9/Lab9prod/static/js/main.088a0e8c.js.map",
+    "453.ed3810f9.chunk.js.map": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Lab9/Lab9prod/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aed877f6.css",
+    "static/js/main.088a0e8c.js"
+  ]
+}
