@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #eee;
+  text-align: center;
+}
+
+
+.App {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin: 3rem auto;
+  max-width: 500px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+}
+
+select, button {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #999;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 1.5rem;
+  display: inline-block;
+  min-width: 100px;
+  font-weight: bold;
+}
+
+.card p, .card h3 {
+  margin: 0;
+}
+
+/* dodane specjalnie do wyśrodkowania */
+.magic-ball-output,
+.tarot-output {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.card {
+  background: #1e1e2f;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+select, button {
+  background-color: #2a2a3d;
+  color: #eee;
+  border: 1px solid #444;
+}
+button:hover {
+  background-color: #3c3c5c;
+}
+
+.magic-ball-glow {
+  margin: 2rem auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #1a1a2e 60%, #0f0f1a 100%);
+  box-shadow:
+    0 0 20px rgba(0, 255, 255, 0.4),
+    0 0 40px rgba(0, 255, 255, 0.2),
+    inset 0 0 30px rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.magic-core {
+  background: #12122b;
+  border-radius: 12px;
+  padding: 10px 15px;
+  color: #00eaff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.app-header {
+  background: linear-gradient(135deg, #4b0082, #20043b);
+  padding: 2.5rem 1rem;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+
+.app-header h1 {
+  margin: 0;
+  font-size: 3rem;
+  color: #ffffff;
+  text-shadow: 0 0 8px #b478ff;
+}
+
+.app-header p {
+  font-size: 1.1rem;
+  margin-top: 0.7rem;
+  opacity: 0.95;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(185, 124, 255, 0.6);
+}
+
+.card, .magic-core {
+  color: #ffffff;
+  text-shadow: 0 0 3px #b986ff;
+}
+
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+
+.app-section {
+  background: rgba(0, 0, 0, 0.4); /* Ciemne przezroczyste tło */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+
+.app-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.love-result-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.app-section h2,
+.app-header h1,
+.app-header p,
+.card,
+.magic-core {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeInUp 0.9s ease-out forwards;
+  opacity: 0; /* początkowo niewidoczny */
+}
+
+.magic-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #ff00ff, #6a5acd, #00e0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite, pulse 2s ease-in-out infinite;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  }
+}
+
+.footer-fade {
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 0.75rem;
+  text-align: center;
+  color: #16043a;
+  opacity: 0;
+  animation: fadeInFooter 3s ease-in 2.5s forwards;
+  letter-spacing: 1px;
+}
+
+@keyframes fadeInFooter {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

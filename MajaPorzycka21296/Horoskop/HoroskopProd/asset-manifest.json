@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Horoskop/HoroskopProd/static/css/main.eea78c7e.css",
+    "main.js": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Horoskop/HoroskopProd/static/js/main.6e51ff77.js",
+    "index.html": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Horoskop/HoroskopProd/index.html",
+    "main.eea78c7e.css.map": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Horoskop/HoroskopProd/static/css/main.eea78c7e.css.map",
+    "main.6e51ff77.js.map": "/Programowanie_w_jezykach_skryptowych/MajaPorzycka21296/Horoskop/HoroskopProd/static/js/main.6e51ff77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eea78c7e.css",
+    "static/js/main.6e51ff77.js"
+  ]
+}
